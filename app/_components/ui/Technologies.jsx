@@ -1,10 +1,23 @@
+import TechCards from "../TechCards";
+
 
 const Technologies = () => {
-  return (
-    <div>
-        
-    </div>
-  )
-}
+  
+const front = ["react", "tailwindcss"];
 
-export default Technologies
+const back = ["nodejs", "express", "mongodb"];
+
+const tools = ["git", "github", "postman", "vscode"];
+  return (
+    <div className="my-10">
+      <h1 className="font-bold font-mono mb-3 text-2xl ">Technologies</h1>
+      <div className="flex flex-wrap gap-5">
+        <TechCards cat="Front-end" items={front} />
+        <TechCards cat="Back-end" items={back} />
+      <TechCards cat="Tools" items={tools} />
+      </div>
+    </div>
+  );
+};
+
+export default Technologies;

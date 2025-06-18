@@ -16,7 +16,7 @@ const SkillsSection = () => {
 
   return (
     <div>
-      <h1 className="font-bold font-mono mb-3 ">Skills</h1>
+      <h1 className="font-bold font-mono text-2xl mb-3 ">Skills</h1>
       <div className="flex flex-wrap gap-4">
         {skills &&
           skills.map((skill, index) => <SkillsItem text={skill} key={index} />)}
