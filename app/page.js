@@ -1,4 +1,5 @@
 import AboutSection from "./_components/ui/AboutSection";
+import ProjectsSection from "./_components/ui/ProjectsSection";
 import SkillsSection from "./_components/ui/SkillsSection";
 import Technologies from "./_components/ui/Technologies";
 
@@ -8,6 +9,7 @@ export default function Home() {
     <AboutSection />
     <SkillsSection/>
     <Technologies/>
+    <ProjectsSection/>
  </div>
  )
 }
