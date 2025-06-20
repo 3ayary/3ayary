@@ -15,7 +15,7 @@ const SkillsSection = () => {
   ]
 
   return (
-    <div>
+    <div id="skills">
       <h1 className="font-bold font-mono text-2xl mb-3 ">Skills</h1>
       <div className="flex flex-wrap gap-4">
         {skills &&

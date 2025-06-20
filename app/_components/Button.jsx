@@ -1,7 +1,8 @@
 import Link from "next/link";
-const Button = ({ text, second ,link}) => {
+const Button = ({ text, second ,link,download}) => {
+  
   return (
-    <Link href={link||"#"}>
+    <Link href={link||"#"} download={download} >
     <button
       className={
         !second

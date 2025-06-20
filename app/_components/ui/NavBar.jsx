@@ -11,7 +11,7 @@ const NavBar = () => {
         <Button text="About" link='#about' />
         <Button text="Projects" link='#projects' />
         <Button text="Contact" link='#contact'/>
-        <Button text="Resume" second={true} link='#resume'/>
+        <Button text="Resume" second={true} link='/muhanad.pdf' download />
       </div>
     </div>
   );

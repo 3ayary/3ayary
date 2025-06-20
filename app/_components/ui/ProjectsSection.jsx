@@ -17,7 +17,7 @@ const ProjectsSection = () => {
   });
 
   return (
-    <div>
+    <div id="projects">
       <h1 className="font-bold font-mono text-2xl mb-3 ">Projects</h1>
       <div className="flex flex-wrap gap-4 justify-center">
         {data && 

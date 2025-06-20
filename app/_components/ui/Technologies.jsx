@@ -9,7 +9,7 @@ const back = ["nodejs", "express", "mongodb"];
 
 const tools = ["git", "github", "postman", "vscode"];
   return (
-    <div className="my-10">
+    <div className="my-10" id="technologies">
       <h1 className="font-bold font-mono mb-3 text-2xl ">Technologies</h1>
       <div className="flex flex-wrap gap-5">
         <TechCards cat="Front-end" items={front} />

@@ -1,7 +1,7 @@
 import Image from "next/image";
 const AboutSection = () => {
   return (
-    <div className="flex flex-col justify-center my-8">
+    <div className="flex flex-col justify-center my-8" id="about">
       <div className="items-center flex flex-col">
         <div className="w-32 h-32 overflow-hidden rounded-full">
           <Image
