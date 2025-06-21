@@ -1,10 +1,11 @@
 import Image from "next/image";
 import LinkCard from "../LinkCard";
-
-const ContactSection = () => {
+import {getTranslations} from 'next-intl/server';
+const ContactSection = async() => {
+   const t = await getTranslations('contact');
   return (
     <div className=" mb-10" id="contact">
-      <h1 className="font-bold font-mono text-2xl mb-3">Contact</h1>
+      <h1 className="font-bold font-mono text-2xl mb-3">{t("sectionTitle")}</h1>
       <div className="flex flex-col items-center gap-4">
         <Image
           src={"/placeholder.svg"}
@@ -22,7 +23,7 @@ const ContactSection = () => {
 
       <div>
         <p className="text-center text-gray-600 mt-4">
-          Feel free to reach out for collaborations or just to say hi!
+        {t("text")}
         </p>
       </div>
     </div>

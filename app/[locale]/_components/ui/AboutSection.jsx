@@ -1,5 +1,8 @@
 import Image from "next/image";
-const AboutSection = () => {
+import {getTranslations} from 'next-intl/server';
+
+const  AboutSection = async() => {
+  const t = await getTranslations('about');
   return (
     <div className="flex flex-col justify-center my-8" id="about">
       <div className="items-center flex flex-col">
@@ -12,15 +15,14 @@ const AboutSection = () => {
             className="object-cover"
           />
         </div>
-        <h1 className="text-2xl font-bold mt-3 ">Muhanad Al-ayari</h1>
-        <p className="text-gray-600 text-[16px] mt-2">Full Stack Developer</p>
+        <h1 className="text-2xl font-bold mt-3 ">{t("name")}</h1>
+        <p className="text-gray-600 text-[16px] mt-2">{t("jobTitle")}</p>
       </div>
 
       <div className="flex flex-col mt-10">
-        <h1 className="font-bold font-mono text-2xl">About Me</h1>
+        <h1 className="font-bold font-mono text-2xl">{t("sectionTitle")}</h1>
         <p className="text-gray-600 text-[16px] mt-2">
-          I'm a web developer specializing in Next.js, with a strong focus on
-          building fast, scalable, and user-friendly web applications.
+          {t("description")}
         </p>
 
       </div>

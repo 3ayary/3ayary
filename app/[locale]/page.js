@@ -12,6 +12,7 @@ export default function Home() {
     <Technologies/>
     <ProjectsSection/>
     <ContactSection/>
+    
  </div>
  )
 }

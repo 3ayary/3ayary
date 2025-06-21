@@ -1,0 +1,36 @@
+{
+  "navbar": {
+    "siteTitle": "أعمال عياري",
+    "aboutLink": "نبذة",
+    "resumeLink": "السيرة الذاتية",
+    "technologiesLink": "التقنيات",
+    "projectsLink": "المشاريع",
+    "contactLink": "تواصل"
+  },
+
+  "about": {
+    "name": "مهند العياري",
+    "jobTitle": "مطوّر برمجيات ",
+    "description": "أنا مطوّر ويب متخصص في Next.js، أركّز على بناء تطبيقات ويب سريعة، قابلة للتوسع، وسهلة الاستخدام.",
+    "sectionTitle": "نبذة عني"
+  },
+  "skills": {
+    "sectionTitle": "المهارات"
+  },
+  "technologies": {
+    "sectionTitle": "التقنيات",
+    "FrontEnd": "الواجهة الأمامية",
+    "BackEnd": "الواجهة الخلفية",
+    "Tools": "الأدوات"
+  },
+  "projects": {
+    "sectionTitle": "المشاريع"
+  },
+  "contact": {
+    "sectionTitle": "تواصل",
+    "text": "لا تتردد في التواصل للتعاون أو حتى لإلقاء التحية!"
+  },
+  "footer": {
+    "text": "© 2023 مهند العياري. جميع الحقوق محفوظة."
+  }
+}

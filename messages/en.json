@@ -1,0 +1,36 @@
+{
+  "navbar": {
+    "siteTitle": "ayari's portfolio",
+    "aboutLink": "About",
+    "technologiesLink": "Technologies",
+    "projectsLink": "Projects",
+    "resumeLink": "Resume",
+    "contactLink": "Contact"
+  },
+
+  "about": {
+    "name": "muhanad al-ayari",
+    "jobTitle": "Full Stack Developer",
+    "description": "I'm a web developer specializing in Next.js, with a strong focus on building fast, scalable, and user-friendly web applications.",
+    "sectionTitle": "About Me"
+  },
+  "skills": {
+    "sectionTitle": "Skills"
+  },
+  "technologies": {
+    "sectionTitle": "Technologies",
+    "FrontEnd": "Front-End",
+    "BackEnd": "Back-End",
+    "Tools": "Tools"
+  },
+  "projects": {
+    "sectionTitle": "Projects"
+  },
+  "contact": {
+    "sectionTitle": "Contact",
+    "text": "Feel free to reach out for collaborations or just to say hi!"
+  },
+  "footer": {
+    "text": "© 2023 Muhanad Al-Ayari. All rights reserved."
+  }
+}

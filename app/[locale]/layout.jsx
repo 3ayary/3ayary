@@ -2,6 +2,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NavBar from "./_components/ui/NavBar";
 import Footer from "./_components/ui/Footer";
+import {NextIntlClientProvider} from 'next-intl';
+import { useLocale } from 'next-intl';
+import LanguageSwitcher from "./_components/LangButton";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -17,15 +20,18 @@ export const metadata = {
   description: "ayari full-stack developer portfolio",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children, params: { locale } }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang={locale} dir={locale=='ar'?'rtl':'ltr'} className="scroll-smooth">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+            <NextIntlClientProvider>
         <NavBar/>
         {children}
         <Footer/>
+        <LanguageSwitcher/>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

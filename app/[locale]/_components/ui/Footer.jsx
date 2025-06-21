@@ -1,7 +1,9 @@
 import Link from "next/link";
 import React from "react";
+import {getTranslations} from 'next-intl/server';
 
-const Footer = () => {
+const Footer =async () => {
+  const t = await getTranslations('footer');
   const GithubLogo = (
     <svg
       width="20"
@@ -61,7 +63,7 @@ const Footer = () => {
         <Link href={"https://x.com/muhanad3ayary"}>{TwitterLogo}</Link>
       </div>
 
-      <p className="text-md text-gray-500 flex justify-center my-3">Made With Love By muhanad alayari.</p>
+      <p className="text-md text-gray-500 flex justify-center my-3">{t("text")}</p>
     </div>
   );
 };

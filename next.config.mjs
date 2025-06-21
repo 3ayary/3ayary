@@ -1,5 +1,9 @@
+import createNextIntlPlugin from 'next-intl/plugin';
+ 
+const withNextIntl = createNextIntlPlugin();
+ 
 /** @type {import('next').NextConfig} */
-const nextConfig = {  images: {
+const nextConfig = { images: {
     remotePatterns: [
       {
         protocol: 'https',
@@ -7,5 +11,5 @@ const nextConfig = {  images: {
       },
     ],
   },};
-
-export default nextConfig;
+ 
+export default withNextIntl(nextConfig);
