@@ -8,9 +8,9 @@ const NavBar = () => {
       </div>
 
       <div className="flex items-center gap-3">
-        <Button text="About" link='#about' />
-        <Button text="Projects" link='#projects' />
-        <Button text="Contact" link='#contact'/>
+        <Button text="About" link='/#about' />
+        <Button text="Projects" link='/#projects' />
+        <Button text="Contact" link='/#contact'/>
         <Button text="Resume" second={true} link='/muhanad.pdf' download />
       </div>
     </div>
