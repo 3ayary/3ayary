@@ -7,11 +7,11 @@ const ContactSection = () => {
       <h1 className="font-bold font-mono text-2xl mb-3">Contact</h1>
       <div className="flex flex-col items-center gap-4">
         <Image
-          src={""}
+          src={"/placeholder.svg"}
           alt="Project Image"
           width={928}
           height={270}
-          className="rounded-lg shadow-md object-cover border-2 "
+          className="rounded-lg shadow-md object-cover "
         />
       </div>
       <div className=" flex flex-row justify-center items-center gap-4 mt-10">
