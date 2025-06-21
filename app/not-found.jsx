@@ -4,7 +4,7 @@ import Button from './_components/Button'
 
 const NotFound= () => {
   return (
-    <div className='w-full h-[75vh] flex flex-col items-center justify-center'>
+    <div className='w-full flex flex-col items-center justify-center mb-10'>
         <Image 
         src="/404.jpg"
         width={500}
