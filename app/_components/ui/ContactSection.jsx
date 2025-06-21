@@ -14,14 +14,13 @@ const ContactSection = () => {
           className="rounded-lg shadow-md object-cover "
         />
       </div>
-      <div className=" flex flex-row justify-center items-center gap-4 mt-10">
+      <div className=" flex flex-col md:flex-row justify-center items-center gap-4 mt-10">
         <LinkCard social={'github'} link={'https://github.com/3ayary'}/>
          <LinkCard social={'linkedin'} link={'https://www.linkedin.com/in/muhanad-al-ayari-5a1812221/'}/>
           <LinkCard social={'mail'} link={'mailto:3ayary@gmail.com'}/>
       </div>
 
       <div>
-        <p></p>
         <p className="text-center text-gray-600 mt-4">
           Feel free to reach out for collaborations or just to say hi!
         </p>

@@ -6,7 +6,7 @@ import Technologies from "./_components/ui/Technologies";
 
 export default function Home() {
  return(
- <div className="px-[170px] ">
+ <div className="px-[70px] md:px-[170px] ">
     <AboutSection />
     <SkillsSection/>
     <Technologies/>
