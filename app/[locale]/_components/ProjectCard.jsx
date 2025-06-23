@@ -5,7 +5,7 @@ const ProjectCard = ({ props }) => {
     //change api props
     <div className="mb-7">
       <Image
-        src={props.id ==1 ? "/project1.svg" : props.id == 2 ? "/project2.svg" : ""}
+        src={props.id ==1 ? "/project1.svg" : props.id == 2 ? "/project2.svg" : "/project2.svg"}
         alt="Project Image"
         width={558}
         height={358}
