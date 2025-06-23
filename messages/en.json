@@ -24,7 +24,8 @@
     "Tools": "Tools"
   },
   "projects": {
-    "sectionTitle": "Projects"
+    "sectionTitle": "Projects",
+    "soon":"Working on Projects ,Please check back later for updates."
   },
   "contact": {
     "sectionTitle": "Contact",

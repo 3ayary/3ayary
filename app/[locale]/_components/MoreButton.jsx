@@ -1,8 +1,9 @@
 import React from "react";
 import AnimatedContent from './AnimatedContent.jsx';
 import Link from "next/link";
-
+import { useLocale } from 'next-intl';
 const MoreButton = () => {
+const locale = useLocale();
   return (
 
 <AnimatedContent
@@ -17,7 +18,7 @@ const MoreButton = () => {
   threshold={0.2}
   delay={0.3}
 >
-<Link href={"/projects"} className="flex flex-col items-center justify-center mt-4 transition duration-300 hover:translate-y-1 ">
+<Link href={`/${locale}/projects`} className="flex flex-col items-center justify-center mt-4 transition duration-300 hover:translate-y-1 ">
       <h1 className="font-bold text-xl">See More</h1>
       <div>
         <svg
