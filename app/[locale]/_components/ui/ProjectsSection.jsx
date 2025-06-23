@@ -28,7 +28,7 @@ const ProjectsSection = () => {
     <div id="projects">
       <h1 className="font-bold font-mono text-2xl mb-3">{t("sectionTitle")}</h1>
 
-      {loading ? (
+      {/* {loading ? (
         <Loader /> 
       ) : (
         <div className="flex flex-wrap gap-4 justify-center">
@@ -38,8 +38,14 @@ const ProjectsSection = () => {
             ))
            }
         </div>
-      )}
-      
+      )} */}
+       <div className="flex flex-wrap gap-4 justify-center h-[200px] items-center">
+       <h1 className="text-center text-gray-500 font-mono">
+       {t("soon")}
+       </h1>
+        </div>
+
+
       <MoreButton />
     </div>
   );

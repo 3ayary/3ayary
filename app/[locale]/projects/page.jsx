@@ -27,7 +27,7 @@
     <div id="projects" className="p-7 ">
         <h1 className="font-bold font-mono text-2xl mb-5">{t("sectionTitle")}</h1>
 
-        {loading ? (
+        {/* {loading ? (
             <Loader /> 
         ) : (
             <div className="flex flex-wrap gap-4 justify-center ">
@@ -37,7 +37,15 @@
                 ))
             }
             </div>
-        )}
+        )} */}
+
+ <div className="flex flex-wrap gap-4 justify-center h-[65vh] items-center">
+       <h1 className="text-center text-gray-500 font-mono">
+     {t("soon")}
+       </h1>
+        </div>
+
+
         </div>
     )
     
