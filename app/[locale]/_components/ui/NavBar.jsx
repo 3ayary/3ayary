@@ -15,7 +15,7 @@ const NavBar = async() => {
         <Button text={t("aboutLink")} link={`/${locale}/#about`} />
         <Button text={t("projectsLink")} link={`/${locale}/#projects`} />
         <Button text={t("contactLink")} link={`/${locale}/#contact`} />
-        <Button text={t("resumeLink")} second={true} link={`/${locale}/muhanad-alayari.pdf`} download />
+        <Button text={t("resumeLink")} second={true} link={`/muhanad-alayari.pdf`} download />
       </div>
     </div>
   );
