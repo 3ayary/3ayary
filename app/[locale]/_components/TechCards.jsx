@@ -1,4 +1,7 @@
-const TechCards = ({ cat, items }) => {
+import {getTranslations} from 'next-intl/server';
+const TechCards = async ({ cat, items }) => {
+  const t = await getTranslations('technologies');
+
   const frontIcon = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -58,9 +61,9 @@ const TechCards = ({ cat, items }) => {
   return (
     <div className="flex flex-col border-1 rounded-xl w-[223px] h-[136px] border-gray-300 p-4">
       {
-        cat === "Front-end" ? frontIcon : cat === "Back-end" ? backIcon : cat === "Tools" ? toolsIcon : ""
+        cat === t("FrontEnd") ? frontIcon : cat === t("BackEnd") ? backIcon : cat === t("Tools") ? toolsIcon : ""
       }
-      <h1 className="font-bold text-xl mb-1">{cat}</h1>
+      <h1 className="font-bold text-xl mt-1 mb-2">{cat}</h1>
       <div className="flex flex-wrap gap-1">
         {items &&
           items.map((item) => {
