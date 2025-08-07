@@ -4,6 +4,8 @@ import NavBar from "./_components/ui/NavBar";
 import Footer from "./_components/ui/Footer";
 import {NextIntlClientProvider} from 'next-intl';
 import LanguageSwitcher from "./_components/LangButton";
+import { Analytics } from "@vercel/analytics/next"
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -40,6 +42,7 @@ export default function RootLayout({ children, params: { locale } }) {
             <NextIntlClientProvider>
         <NavBar/>
         {children}
+        <Analytics />
         <Footer/>
         <LanguageSwitcher/>
         </NextIntlClientProvider>
