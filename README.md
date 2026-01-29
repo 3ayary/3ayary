@@ -1,46 +1,81 @@
-# Hi there, I'm Muhannad Ayari 👋
+# 👋 Hi, I'm Muhanad Elayary
 
-I'm a passionate front-end developer from Egypt, currently focusing on building responsive and modern web apps using **Next.js**, **React**, and **Tailwind CSS**.  
-I enjoy solving real-world problems, and I'm constantly learning to improve my skills in full-stack development.
-
----
-
-## 🛠 Tech Stack
-
-- **Languages:** JavaScript, TypeScript, HTML, CSS
-- **Frameworks:** React, Next.js
-- **Styling:** Tailwind CSS, CSS Modules
-- **Backend:** Node.js, Supabase (for auth & database)
-- **Tools:** Git & GitHub, VS Code, Figma
+Backend-focused Software Developer with strong hands-on experience building secure and scalable applications using **Java and Spring Boot**.  
+I enjoy working on backend systems, API design, security, and understanding how applications work end-to-end.
 
 ---
 
-## 📌 Featured Projects
-
-### 🏥 [Hospital](https://github.com/3ayary/hospital)
-Responsive hospital webapp built using Next.js and Tailwind CSS.  
-Includes modern design and basic UI components.
-
----
-
-## 🎯 Goals
-
-- 📚 Continue learning full-stack development (Node.js, databases, APIs)
-- 🧠 Improve problem solving and algorithmic thinking
-- 🤝 Open to collaborations on real-world projects
+## 🧠 About Me
+- Backend-oriented developer with a solid understanding of **Spring Boot ecosystem**
+- Passionate about learning new technologies and exploring how systems are designed internally
+- Strong believer in clean code, layered architecture, and writing maintainable software
+- Comfortable working in team environments and collaborating on real-world projects
 
 ---
 
-## 📫 Let's Connect
+## 🛠️ Technical Skills
 
-- LinkedIn: [linkedin.com/in/muhanad-al-ayari-5a1812221](https://www.linkedin.com/in/muhanad-al-ayari-5a1812221/)
-- Email: [3ayary@gmail.com](mailto:3ayary@gmail.com)
+### Backend
+- Java
+- Spring Boot
+- RESTful API Design
+- Spring Security
+- JWT Authentication & Authorization
+- Spring Data JPA / Hibernate
+- PostgreSQL
+- Validation & Global Exception Handling
+- Unit Testing (JUnit, Mockito)
+
+### Frontend
+- HTML, CSS, JavaScript
+- React, Next.js
+- Tailwind CSS
+
+### Tools & Practices
+- Git & GitHub
+- Docker
+- Linux
+- Clean Architecture
+- Secure Configuration Management
 
 ---
 
-## 📊 GitHub Stats
+## 🚀 Featured Project
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=3ayary&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=3ayary&layout=compact&theme=radical)
+### 🧑‍💼 Employee Management System
+**Tech Stack:** Java, Spring Boot, PostgreSQL, Spring Security, JWT
+
+A complete backend system built to apply everything I learned about Spring Boot and backend development.
+
+**Key Features:**
+- Clean layered architecture (Controller, Service, Repository)
+- RESTful APIs for employees, departments, and leave requests
+- Pagination support for large datasets
+- Request validation and centralized global exception handling
+- Authentication & authorization using Spring Security and JWT
+- Role-based access control
+- Email verification workflow
+- Password reset functionality
+- Unit testing with JUnit & Mockito
+- Secured sensitive configuration outside version control
+
+🔗 Repository:  
+👉 https://github.com/3ayary/employee-management-system
 
 ---
+
+## 📈 What I’m Currently Focusing On
+- Deepening my knowledge of backend system design
+- Improving API performance and database interactions
+- Learning more about scalable and production-ready backend architectures
+
+---
+
+## 📫 Connect With Me
+- **GitHub:** https://github.com/3ayary  
+- **LinkedIn:** https://www.linkedin.com/in/muhannad-ayari-28b093397/  
+- **Email:** 3ayary@gmail.com
+
+---
+
+⭐ Feel free to check out my repositories and follow my journey as I continue learning and building backend systems.
