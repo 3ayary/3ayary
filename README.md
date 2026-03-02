@@ -1,81 +1,35 @@
-# 👋 Hi, I'm Muhanad Elayary
+# Hi, I'm Muhanad 👋
 
-Backend-focused Software Developer with strong hands-on experience building secure and scalable applications using **Java and Spring Boot**.  
-I enjoy working on backend systems, API design, security, and understanding how applications work end-to-end.
+Junior backend developer who builds things to learn, not just to ship.
 
----
+I focus on building APIs the right way — proper authentication, clean architecture, real authorization logic, and consistent error handling. I care about understanding how systems work, not just making them run.
 
-## 🧠 About Me
-- Backend-oriented developer with a solid understanding of **Spring Boot ecosystem**
-- Passionate about learning new technologies and exploring how systems are designed internally
-- Strong believer in clean code, layered architecture, and writing maintainable software
-- Comfortable working in team environments and collaborating on real-world projects
+Currently working with **Laravel** and **PHP**. Also have hands-on experience with **Spring Boot**.
 
 ---
 
-## 🛠️ Technical Skills
+## What I'm Working With
 
-### Backend
-- Java
-- Spring Boot
-- RESTful API Design
-- Spring Security
-- JWT Authentication & Authorization
-- Spring Data JPA / Hibernate
-- PostgreSQL
-- Validation & Global Exception Handling
-- Unit Testing (JUnit, Mockito)
+**Backend**
+PHP · Laravel · Laravel Sanctum · RESTful APIs · Eloquent ORM · MySQL · PostgreSQL · MVC · Middleware · Policies · Form Request Validation · Seeders · Factories
 
-### Frontend
-- HTML, CSS, JavaScript
-- React, Next.js
-- Tailwind CSS
+**Frontend**
+React · Next.js · JavaScript · Tailwind CSS
 
-### Tools & Practices
-- Git & GitHub
-- Docker
-- Linux
-- Clean Architecture
-- Secure Configuration Management
+**Tools**
+Git · Linux · Postman · Composer
 
 ---
 
-## 🚀 Featured Project
+## Projects
 
-### 🧑‍💼 Employee Management System
-**Tech Stack:** Java, Spring Boot, PostgreSQL, Spring Security, JWT
-
-A complete backend system built to apply everything I learned about Spring Boot and backend development.
-
-**Key Features:**
-- Clean layered architecture (Controller, Service, Repository)
-- RESTful APIs for employees, departments, and leave requests
-- Pagination support for large datasets
-- Request validation and centralized global exception handling
-- Authentication & authorization using Spring Security and JWT
-- Role-based access control
-- Email verification workflow
-- Password reset functionality
-- Unit testing with JUnit & Mockito
-- Secured sensitive configuration outside version control
-
-🔗 Repository:  
-👉 https://github.com/3ayary/employee-management-system
+| Project | Stack | Description |
+|---------|-------|-------------|
+| [Task Management System API](https://github.com/3ayary/tasks-manager-laravel-) | Laravel, MySQL, Sanctum | RESTful API with auth, policies, categories, and full CRUD |
+| [Employee Management System API](https://github.com/3ayary/employee-management-system) | Spring Boot, PostgreSQL, JWT | Enterprise-style API with email workflows, RBAC, and pagination |
 
 ---
 
-## 📈 What I’m Currently Focusing On
-- Deepening my knowledge of backend system design
-- Improving API performance and database interactions
-- Learning more about scalable and production-ready backend architectures
+## A Bit More
 
----
-
-## 📫 Connect With Me
-- **GitHub:** https://github.com/3ayary  
-- **LinkedIn:** https://www.linkedin.com/in/muhannad-ayari-28b093397/  
-- **Email:** 3ayary@gmail.com
-
----
-
-⭐ Feel free to check out my repositories and follow my journey as I continue learning and building backend systems.
+- 🎓 Bachelor's in Management Information Systems — graduated 2025
