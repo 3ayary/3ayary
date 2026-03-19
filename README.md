@@ -25,6 +25,7 @@ Git · Linux · Postman · Composer
 
 | Project | Stack | Description |
 |---------|-------|-------------|
+| [Plato Restaurant API](https://github.com/3ayary/plato-restaurant-api) | Laravel, MySQL, Sanctum, Cloudinary | RESTful API for restaurant management with auth, image uploads, search, rate limiting, and Pest tests |
 | [Task Management System API](https://github.com/3ayary/tasks-manager-laravel-) | Laravel, MySQL, Sanctum | RESTful API with auth, policies, categories, and full CRUD |
 | [Employee Management System API](https://github.com/3ayary/employee-management-system) | Spring Boot, PostgreSQL, JWT | Enterprise-style API with email workflows, RBAC, and pagination |
 
